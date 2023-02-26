@@ -1,5 +1,5 @@
 # Common-Ground
 
-In this repository I'll have all the projects that I've done, in order to finish the 42 Common Core Course.
+In this repository, I'll have all the projects that I've done to finish the 42 Common Core Course.
 
-  Note that every time I finish and pass a project I'll add it to this repository.
+  I'll add it to this repository every time I finish and pass a project.
