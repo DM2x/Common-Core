@@ -1,4 +1,4 @@
-# Common-Ground
+# Common-Core
 
 In this repository, I'll have all the projects that I've done to finish the 42 Common Core Course.
 
