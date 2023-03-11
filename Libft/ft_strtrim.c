@@ -6,7 +6,7 @@
 /*   By: dm2x <dm2x@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/09 01:40:17 by dm2x              #+#    #+#             */
-/*   Updated: 2023/03/09 03:06:38 by dm2x             ###   ########.fr       */
+/*   Updated: 2023/03/11 14:14:38 by dm2x             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,9 +26,9 @@ int	check_set(char const *set, char s1)
 char	*ft_strtrim(char const *s1, char const *set)
 {
 	char	*newstr;
-	size_t	start;
-	size_t	len;
-	size_t	i;
+	int		start;
+	int		len;
+	int		i;
 
 	start = 0;
 	len = ft_strlen(s1) - 1;
