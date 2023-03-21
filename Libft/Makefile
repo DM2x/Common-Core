@@ -55,7 +55,14 @@ SRC    = ft_isalpha.c \
 
 OBJ = $(SRC:.c=.o)
 
+BONUS = ft_lstnew.c \
+
+BONUS_OBJ = $(BONUS:.c=.o)
+
 all:	$(NAME)
+
+bonus:    $(BONUS_OBJ)
+	ar rcs $(NAME) $(BONUS_OBJ)
 
 $(NAME):    $(OBJ)
 		ar rcs $(NAME) $(OBJ)
