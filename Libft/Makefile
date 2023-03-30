@@ -56,6 +56,7 @@ SRC    = ft_isalpha.c \
 OBJ = $(SRC:.c=.o)
 
 BONUS = ft_lstnew.c \
+		ft_lstadd_front.c \
 
 BONUS_OBJ = $(BONUS:.c=.o)
 
