@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: ddias-ma <ddias-ma@student.42.fr>          +#+  +:+       +#+         #
+#    By: ddias-ma <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/06/27 11:01:45 by ddias-ma          #+#    #+#              #
-#    Updated: 2023/07/17 12:54:40 by ddias-ma         ###   ########.fr        #
+#    Updated: 2023/07/24 11:45:11 by ddias-ma         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -17,7 +17,7 @@ CC = gcc
 CFLAGS = -Wall -Werror -Wextra
 
 SRC	=	ft_printf.c \
-		ft_getaddress.c \
+		ft_printadr.c \
 		ft_putnbr_base.c \
 		ft_putnbr_unsigned.c \
 		ft_.c \
